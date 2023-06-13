@@ -1,0 +1,54 @@
+{
+  "name": "spicyweb/craft-field-field",
+  "description": "Craft CMS field type for selecting fields",
+  "version": "1.0.0",
+  "type": "craft-plugin",
+  "keywords": [
+    "cms",
+    "craftcms",
+    "plugin"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Spicy Web",
+      "homepage": "https://spicyweb.com.au"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "^4.4.0",
+    "php": "^8.0.2"
+  },
+  "support": {
+    "issues": "https://github.com/spicywebau/craft-field-field/issues",
+    "source": "https://github.com/spicywebau/craft-field-field",
+    "rss": "https://github.com/spicywebau/craft-field-field/commits/1.x.atom"
+  },
+  "autoload": {
+    "psr-4": {
+      "spicyweb\\fieldfield\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "field-field",
+    "name": "Field Field",
+    "class": "spicyweb\\fieldfield\\Plugin",
+    "changelogUrl": "https://github.com/spicywebau/craft-field-field/blob/1.x/CHANGELOG.md",
+    "downloadUrl": "https://github.com/spicywebau/craft-field-field/archive/refs/tags/1.0.0.zip"
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "craftcms/ecs": "dev-main"
+  },
+  "scripts": {
+    "check-cs": "ecs check --ansi",
+    "fix-cs": "ecs check --ansi --fix"
+  }
+}
