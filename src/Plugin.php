@@ -28,7 +28,7 @@ class Plugin extends BasePlugin
             Fields::class,
             Fields::EVENT_REGISTER_FIELD_TYPES,
             function(RegisterComponentTypesEvent $event) {
-                // $event->types[] = FieldField::class;
+                $event->types[] = FieldField::class;
             }
         );
     }
