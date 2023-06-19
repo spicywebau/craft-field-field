@@ -22,6 +22,7 @@
   "support": {
     "issues": "https://github.com/spicywebau/craft-field-field/issues",
     "source": "https://github.com/spicywebau/craft-field-field",
+    "docs": "https://github.com/spicywebau/craft-field-field/blob/1.0.0/README.md",
     "rss": "https://github.com/spicywebau/craft-field-field/commits/1.x.atom"
   },
   "autoload": {
