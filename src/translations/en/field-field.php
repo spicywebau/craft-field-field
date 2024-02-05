@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'Allowed Field Groups' => 'Allowed Field Groups',
+    'Allowed Fields' => 'Allowed Fields',
     'Fields' => 'Fields',
-    'Which field groups a selectable field must belong to.' => 'Which field groups a selectable field must belong to.',
+    'Which fields can be selected with this field.' => 'Which fields can be selected with this field.',
 ];

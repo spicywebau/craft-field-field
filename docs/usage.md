@@ -2,11 +2,11 @@
 
 When editing a Craft element, the input for a Field Field resembles a Multi Select field.
 
-<img src="assets/screenshot-input.png" width="808">
+<img src="assets/screenshot-input.png" width="247">
 
-When editing a Field Field's settings, the allowed field groups can be chosen.
+When editing a Field Field's settings, the allowed fields can be chosen.
 
-<img src="assets/screenshot-settings.png" width="358">
+<img src="assets/screenshot-settings.png" width="290">
 
 ## Template examples
 

@@ -16,8 +16,8 @@
     }
   ],
   "require": {
-    "craftcms/cms": "^4.4.0",
-    "php": "^8.0.2"
+    "craftcms/cms": "^5.0.0-alpha.11",
+    "php": "^8.2"
   },
   "support": {
     "issues": "https://github.com/spicywebau/craft-field-field/issues",
@@ -46,7 +46,8 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require-dev": {
-    "craftcms/ecs": "dev-main"
+    "craftcms/ecs": "dev-main",
+    "craftcms/rector": "dev-main"
   },
   "scripts": {
     "check-cs": "ecs check --ansi",
