@@ -1,7 +1,7 @@
 {
   "name": "spicyweb/craft-field-field",
   "description": "Craft CMS field type for selecting fields",
-  "version": "2.0.0-beta.1",
+  "version": "2.0.0",
   "type": "craft-plugin",
   "keywords": [
     "cms",
@@ -16,13 +16,13 @@
     }
   ],
   "require": {
-    "craftcms/cms": "^5.0.0-alpha.11",
+    "craftcms/cms": "^5.0.0",
     "php": "^8.2"
   },
   "support": {
     "issues": "https://github.com/spicywebau/craft-field-field/issues",
     "source": "https://github.com/spicywebau/craft-field-field",
-    "docs": "https://github.com/spicywebau/craft-field-field/blob/2.0.0-beta.1/README.md",
+    "docs": "https://github.com/spicywebau/craft-field-field/blob/2.0.0/README.md",
     "rss": "https://github.com/spicywebau/craft-field-field/commits/2.x.atom"
   },
   "autoload": {
@@ -35,7 +35,7 @@
     "name": "Field Field",
     "class": "spicyweb\\fieldfield\\Plugin",
     "changelogUrl": "https://github.com/spicywebau/craft-field-field/blob/2.x/CHANGELOG.md",
-    "downloadUrl": "https://github.com/spicywebau/craft-field-field/archive/refs/tags/2.0.0-beta.1.zip"
+    "downloadUrl": "https://github.com/spicywebau/craft-field-field/archive/refs/tags/2.0.0.zip"
   },
   "config": {
     "allow-plugins": {
